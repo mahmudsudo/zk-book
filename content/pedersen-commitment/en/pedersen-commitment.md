@@ -51,7 +51,7 @@ Pedersen commitments behave very similar to the commit-reveal scheme described e
 
 Under the discrete logarithm assumption, given elliptic curve points $V$ and $U$, we cannot compute $x$ where $V$ = $xU$. That is to say, we do not know their *discrete log relationship*, i.e. how many times $U$ needs to be added to itself to get $V$.
 
-We still refer to $V$ as the discrete logarithm of $U$ even though we cannot compute it, because we know it exists. All (cryptographic) elliptic curve points have a discrete logarithm, even if they cannot be computed.
+We still refer to $x$ as the discrete logarithm of $U$ even though we cannot compute it, because we know it exists. All (cryptographic) elliptic curve points have a discrete logarithm, even if they cannot be computed.
 
 In this sense, elliptic curve point multiplication behaves like a hash function. They are binding as long as we only allow openings within the curve order.
 
